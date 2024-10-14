@@ -19,10 +19,17 @@
                 background-attachment: scroll; 
             }
         }
+
+        @media (min-width: 769px) and (max-width: 1024px) {
+            body {
+                background-size: cover; 
+                background-attachment: fixed; 
+            }
+        }
     </style>
 </head>
 <body>
-
+   
     
     <script type="module">
         import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
