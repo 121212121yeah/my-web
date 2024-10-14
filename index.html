@@ -1,19 +1,24 @@
+<!DOCTYPE html>
 <html>
-<body> body {
-    background-image: url('https://cdn.jsdelivr.net/gh/121212121yeah/image/B Style (1).png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+<head>
+    <style>
+        body {
+            background-image: url('https://cdn.jsdelivr.net/gh/121212121yeah/image/B Style (1).png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+        Chatbot.init({
+            chatflowid: "3a23d65e-8aac-41ca-ab02-1a4b056b2a54",
+            apiHost: "https://luxaylesz-flowise.hf.space",
+        });
+    </script>
 </body>
-
-<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "3a23d65e-8aac-41ca-ab02-1a4b056b2a54",
-        apiHost: "https://luxaylesz-flowise.hf.space",
-    })
-</script>
-
 </html>
-
